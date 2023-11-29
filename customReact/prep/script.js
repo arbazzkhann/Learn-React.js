@@ -1,8 +1,10 @@
 function customRender(reactElement, container) {
     const domElement = document.createElement(reactElement.type);
+
     domElement.innerHTML = reactElement.children;
+
     domElement.setAttribute('href', reactElement.props.href);
-    domElement.setAttribute('target', reactElement.props.href);
+    domElement.setAttribute('target', reactElement.props.target);
 
     container.appendChild(domElement);
 }
@@ -11,12 +13,12 @@ function customRender(reactElement, container) {
 const reactElement = {
     type: 'a',
     props: {
-        href: 'https://www.google.com/',
-        target: '_blank'
+        href: 'https://www.youtube.com/',
+        target: "_blank"
     },
-    children: 'Click me to visit'
+    children: "YouTube"
 }
 
-const container = document.getElementById('root');
+const rootElement = document.querySelector('#root');
 
-customRender(reactElement, container);
+customRender(reactElement, rootElement);
