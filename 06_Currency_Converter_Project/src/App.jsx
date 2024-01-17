@@ -2,7 +2,6 @@ import { useState } from "react";
 import { InputBox } from "./components"
 import useCurrencyInfo from "./hooks/useCurrencyInfo"
 
-...FARHAN
 
 export default function App() {
 
