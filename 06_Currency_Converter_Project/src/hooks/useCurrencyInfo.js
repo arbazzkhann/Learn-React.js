@@ -10,10 +10,10 @@ function useCurrencyInfo(currency) {
         fetch(url)
         .then((res)=> res.json())
         .then((res)=> setData(res[currency]))
-        console.log(data);
+        // console.log(data);
     }, [currency]);
 
-    console.log(data);
+    // console.log(data);
     return data;
 }
 
