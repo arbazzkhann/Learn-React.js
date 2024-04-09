@@ -1,12 +1,33 @@
-import Header from "./components/Header/Header"
-import Footer from "./components/Footer/Footer"
+import './App.css'
+import Navbar from './assets/components/Navbar'
+import Home from './assets/components/Home'
+import About from './assets/components/About'
+import Contact from './assets/components/Contact'
+import { createBrowserRouter } from 'react-router-dom'
+import { RouterProvider } from 'react-router-dom'
 
-export default function App() {
+function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <><Navbar /><Home /></>
+    },
+    {
+      path: '/about',
+      element: <><Navbar /><About /></>
+    },
+    {
+      path: '/contact',
+      element: <><Navbar /> <Contact /></>
+    }
+  ])
+
   return (
-    <div>
-    <h1 className="bg-green-600 p-4 text-3xl text-white">Arbaz</h1>
-    <Header/>
-    <Footer/>
-    </div>
+    <>
+       <RouterProvider router={router} />
+    </>
   )
 }
+
+export default App
