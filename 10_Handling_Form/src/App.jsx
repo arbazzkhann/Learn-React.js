@@ -12,19 +12,32 @@ function App() {
     register,
     handleSubmit,
     watch,
-    formState: { errors },
+    formState: { errors, isSubmitting },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data)
+
+  const delay = (delay) => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve()
+      }, delay * 1000);
+    })
+  }
+  const onSubmit = async (data) => {
+    await delay(2)  //simulating network delay
+    console.log(data)
+  }
 
   return (
     <>
+      {isSubmitting && <div>Loading...</div>}
       <div className="container">
         <form action="" onSubmit={handleSubmit(onSubmit)}>
-          <input placeholder='username' {...register("username", {required: {value: true, message: "This field is required"}, minLength: {value: 3, message: "Minimum Length is 3"}, maxLength: {value: 8, message: "Maximum Length is 8"}, })} type="text"/> <br />
+          <input placeholder='username' {...register("username", {required: {value: true, message: "Username is required"}, minLength: {value: 3, message: "Username Minimum Length is 3"}, maxLength: {value: 8, message: "Maximum Length is 8"}, })} type="text"/> <br />
           {errors.username && <span className='red'>{errors.username.message}</span>} <br/>
-          <input placeholder='password' {...register("password")} type="password" name="password"/> <br />
-          <input type="submit" value="submit" />
+          <input placeholder='password' {...register("password", {required: {value: true, message: "Password is required"}, minLength: {value: 3, message: "Password Minimum Length is 3"}})} type="password" name="password"/> <br />
+          {errors.password && <span className='red'>{errors.password.message}</span>} <br/>
+          <input disabled={isSubmitting} type="submit" value="submit" />
         </form>
       </div>
     </>
