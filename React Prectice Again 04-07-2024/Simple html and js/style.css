@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+#left-arrow {
+    height: 70px;
+}
+#right-arrow {
+    height: 70px;
+}
