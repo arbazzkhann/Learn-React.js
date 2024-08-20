@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA;;;;AAKA","sources":["style.css"],"sourcesContent":[".card {\r\n    max-width: 300px;\r\n}\r\n\r\n.card img {\r\n    width: 500;\r\n}\r\n\r\n\r\n.card .phone {\r\n    color: red;\r\n    border: 2px solid black;\r\n}"],"names":[],"version":3,"file":"index.c41b5a0e.css.map","sourceRoot":"/__parcel_source_root/"}

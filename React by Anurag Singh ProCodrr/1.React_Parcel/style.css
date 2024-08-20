@@ -1,0 +1,13 @@
+.card {
+    max-width: 300px;
+}
+
+.card img {
+    width: 500;
+}
+
+
+.card .phone {
+    color: red;
+    border: 2px solid black;
+}
