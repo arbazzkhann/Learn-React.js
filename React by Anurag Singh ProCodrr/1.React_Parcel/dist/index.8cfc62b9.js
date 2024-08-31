@@ -2945,64 +2945,20 @@ process.umask = function() {
 };
 
 },{}],"6rimH":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$595d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$595d.prelude(module);
-
-try {
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _client = require("react-dom/client");
+var _cardJs = require("./Components/Card.js");
+var _cardJsDefault = parcelHelpers.interopDefault(_cardJs);
 var _styleCss = require("./style.css");
-const card = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-    className: "card",
-    children: [
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-            src: "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-pro-max.png"
-        }, void 0, false, {
-            fileName: "script.js",
-            lineNumber: 6,
-            columnNumber: 17
-        }, undefined),
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            className: "phone",
-            children: "IPhone 15 Pro"
-        }, void 0, false, {
-            fileName: "script.js",
-            lineNumber: 7,
-            columnNumber: 17
-        }, undefined),
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-            className: "brand",
-            children: "APPLE"
-        }, void 0, false, {
-            fileName: "script.js",
-            lineNumber: 8,
-            columnNumber: 17
-        }, undefined),
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-            className: "price",
-            children: "$1299"
-        }, void 0, false, {
-            fileName: "script.js",
-            lineNumber: 9,
-            columnNumber: 17
-        }, undefined)
-    ]
-}, void 0, true, {
-    fileName: "script.js",
-    lineNumber: 5,
-    columnNumber: 14
-}, undefined);
+(0, _cardJsDefault.default)({
+    title: "title",
+    sub_title: "subTitle",
+    price: 10000
+});
 const root = (0, _client.createRoot)(document.querySelector("#root"));
-root.render(card);
+root.render((0, _cardJsDefault.default));
 
-  $parcel$ReactRefreshHelpers$595d.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react-dom/client":"lOjBx","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./style.css":"dRy26"}],"lOjBx":[function(require,module,exports) {
+},{"react-dom/client":"lOjBx","./style.css":"dRy26","./Components/Card.js":"5POvf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lOjBx":[function(require,module,exports) {
 "use strict";
 var m = require("aaccff5d309d9239");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
@@ -26397,7 +26353,72 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"iTorj":[function(require,module,exports) {
+},{}],"dRy26":[function() {},{}],"5POvf":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$dc44 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$dc44.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Card({ title, sub_title, price }) {
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "card",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: "https://cdsassets.apple.com/live/7WUAS350/images/iphone/fall-2023-iphone-colors-iphone-15-pro-max.png"
+            }, void 0, false, {
+                fileName: "Components/Card.js",
+                lineNumber: 4,
+                columnNumber: 17
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "phone",
+                children: title
+            }, void 0, false, {
+                fileName: "Components/Card.js",
+                lineNumber: 5,
+                columnNumber: 17
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                className: "brand",
+                children: sub_title
+            }, void 0, false, {
+                fileName: "Components/Card.js",
+                lineNumber: 6,
+                columnNumber: 17
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                className: "price",
+                children: [
+                    "$",
+                    price
+                ]
+            }, void 0, true, {
+                fileName: "Components/Card.js",
+                lineNumber: 7,
+                columnNumber: 17
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "Components/Card.js",
+        lineNumber: 3,
+        columnNumber: 5
+    }, this);
+}
+_c = Card;
+exports.default = Card;
+var _c;
+$RefreshReg$(_c, "Card");
+
+  $parcel$ReactRefreshHelpers$dc44.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27245,7 +27266,37 @@ module.exports = require("ee51401569654d91");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"58362d9d82be395f":"21dqq"}],"km3Ru":[function(require,module,exports) {
+},{"58362d9d82be395f":"21dqq"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -27383,6 +27434,6 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"dRy26":[function() {},{}]},["86oZd","1xC6H","6rimH"], "6rimH", "parcelRequirefb44")
+},{"7422ead32dcc1e6b":"786KC"}]},["86oZd","1xC6H","6rimH"], "6rimH", "parcelRequirefb44")
 
 //# sourceMappingURL=index.8cfc62b9.js.map

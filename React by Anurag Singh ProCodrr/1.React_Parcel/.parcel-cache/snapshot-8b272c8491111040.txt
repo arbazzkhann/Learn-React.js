@@ -1,4 +1,4 @@
-5986
+5988
 158D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@babel\helper-validator-identifier\README.md133681735923364238 0
 123D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\callsites133681735925716512 1
 155D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\node-gyp-build-optional-packages\index.js133681735925148590 0
@@ -39,7 +39,7 @@
 181D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\convertor\index.js133681735935533472 0
 146D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\transformer-json\LICENSE133681735922734619 0
 174D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.js133681735923750978 0
-127D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.8cfc62b9.js.map133686117530094177 0
+127D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.8cfc62b9.js.map133694184844452149 0
 157D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\css-boxshadow.js133681735938205080 0
 160D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\text-size-adjust.js133681735949943913 0
 163D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\source-map\parcel_sourcemap_node\build.rs133681735936782705 0
@@ -51,6 +51,9 @@
 156D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\node-gyp-build-optional-packages\README.md133681735927448459 0
 144D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\cache\lib\LMDBCache.js133681735929177402 0
 113D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\package.json133681736802496989 0
+141D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\utils\src\schema.js133681735935823290 0
+123D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\is-number133681735924865893 1
+135D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\ordered-binary\assets133681735929297318 1
 155D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@swc\helpers\cjs\_array_like_to_array.cjs133681735925586586 0
 150D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\css-tree\lib\syntax\scope\default.js133681735939184485 0
 179D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\index.d.ts133681735932945069 0
@@ -58,9 +61,6 @@
 154D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\web-serial.js133681735950426566 0
 142D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\cosmiconfig\dist\readFile.js133681735929277331 0
 161D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\css-cascade-scope.js133681735938305023 0
-141D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\utils\src\schema.js133681735935823290 0
-123D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\is-number133681735924865893 1
-135D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\ordered-binary\assets133681735929297318 1
 149D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\type-fest\source\readonly-deep.d.ts133681735932065612 0
 166D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@swc\helpers\cjs\_class_extract_field_descriptor.cjs133681735930946306 0
 135D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\rust\index.js133681735925576602 0
@@ -90,10 +90,21 @@
 164D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\css-select\node_modules\entities\lib\esm\generated133681735935473508 1
 189D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Comment.js133681735930596522 0
 135D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\csso\dist\csso.esm.js133681735935693373 0
-105D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist133686117530104172 1
+105D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist133694184844472139 1
 139D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lines-and-columns\LICENSE133681735922674652 0
 182D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\prepare133681735934064380 1
 164D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\csso\node_modules\css-tree\cjs\tokenizer\utils.cjs133681735937762094 0
+123D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@mischnic133681735902808101 1
+162D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\permissions-policy.js133681735949156696 0
+151D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\css-tree\cjs\lexer\generic-urange.cjs133681735934743959 0
+144D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\core\lib\AssetGraph.js133681735931645876 0
+144D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\postcss-value-parser\README.md133681735927918174 0
+132D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\posthtml\readme.md133681735926016326 0
+137D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\semver\functions\inc.js133681735930276713 0
+129D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lmdb\index.d.ts133681735938814712 0
+177D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\package.json133681735931036241 0
+136D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\domutils\lib\legacy.js133681735926678938 0
+111D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\Components133694180785704980 1
 157D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\notifications.js133681735948916827 0
 157D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\text-emphasis.js133681735949933922 0
 187D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\moveGroupAttrsToElems.js133681735933164935 0
@@ -106,7 +117,7 @@
 170D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\csso\node_modules\css-tree\lib\syntax\node\Combinator.js133681735938424944 0
 132D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\get-port\readme.md133681735925926378 0
 130D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\semver\README.md133681735934504114 0
-110D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\script.js133686117695202463 0
+110D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\script.js133694184835143260 0
 129D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\posthtml-render133681735926066296 1
 158D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\react\cjs\react-jsx-runtime.profiling.min.js133681735531708515 0
 139D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\types\build-ts.js133681735923454174 0
@@ -136,11 +147,6 @@
 149D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lmdb\dependencies\lz4\lib\lz4file.h133681735937632179 0
 172D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\csso\node_modules\css-tree\lib\syntax\node\MediaFeature.js133681735939684196 0
 119D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@lmdb133681736802467002 1
-123D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@mischnic133681735902808101 1
-162D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\permissions-policy.js133681735949156696 0
-151D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\css-tree\cjs\lexer\generic-urange.cjs133681735934743959 0
-144D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\core\lib\AssetGraph.js133681735931645876 0
-144D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\postcss-value-parser\README.md133681735927918174 0
 187D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\css-select-adapter.d.ts133681735936582830 0
 158D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts133681735936402936 0
 135D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\svgo\plugins\_path.js133681735933644636 0
@@ -209,9 +215,6 @@
 120D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\braces133681735928417860 1
 128D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\react\index.js133681735531548628 0
 167D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\css-hanging-punctuation.js133681735939114527 0
-143D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\profiler\src\index.js133681735925596581 0
-150D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lightningcss\node\composeVisitors.js133681735928357899 0
-143D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\csso\lib\restructure\utils.js133681735936892639 0
 156D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\type-fest\source\require-at-least-one.d.ts133681735932145563 0
 158D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\css-select\node_modules\domhandler\readme.md133681735929347296 0
 162D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@swc\helpers\src\_class_apply_descriptor_set.mjs133681735941573005 0
@@ -1055,17 +1058,6 @@
 145D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\regions\EC.js133681735941043360 0
 139D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\utils\src\glob.js133681735931715824 0
 139D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\resolve-from\package.json133681735922684645 0
-138D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\argparse\lib\textwrap.js133681735927318547 0
-173D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\plugins.js133681735933624646 0
-144D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\runtime-js\src\helpers133681735933974433 1
-138D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\htmlparser2\package.json133681735927738283 0
-162D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\font-unicode-range.js133681735941602990 0
-134D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\ordered-binary\tests133681735927398490 1
-148D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@swc\core-win32-x64-msvc\README.md133681735923414199 0
-139D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@swc\helpers\src\_jsx.mjs133681735942032725 0
-153D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\audio-api.js133681735933874498 0
-172D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\utils133681735936712742 1
-170D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js133681735532088357 0
 140D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\svgo\plugins\cleanupIds.js133681735934234272 0
 152D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\css-sel2.js133681735939993976 0
 132D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\csso\cjs\usage.cjs133681735933484732 0
@@ -1373,9 +1365,6 @@
 147D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\postcss-value-parser\lib\parse.js133681735924431838 0
 149D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\css-tree\cjs\parser\SyntaxError.cjs133681735937652162 0
 137D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\semver\functions\gte.js133681735929677083 0
-132D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\posthtml\readme.md133681735926016326 0
-137D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\semver\functions\inc.js133681735930276713 0
-129D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lmdb\index.d.ts133681735938814712 0
 131D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\react-refresh\cjs133681735927418476 1
 162D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\css-select\node_modules\entities\lib\encode.d.ts133681735935573446 0
 153D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\wasm-simd.js133681735950363561 0
@@ -1485,11 +1474,11 @@
 152D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\core\src\public\Environment.js133681735936093130 0
 171D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\react-refresh\cjs\react-refresh-runtime.production.min.js133681735927468452 0
 152D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\htmlnano\docs\docs\010-introduction.md133681735934853890 0
-148D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\workers\lib\core-worker.js133681735929437231 0
-137D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\json5\dist\index.min.js133681735926788864 0
-129D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\workers133681735934733970 1
 146D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lines-and-columns\build\index.js133681735923641038 0
 155D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\css-filters.js133681735938934637 0
+148D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\workers\lib\core-worker.js133681735929437231 0
+129D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\workers133681735934733970 1
+137D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\json5\dist\index.min.js133681735926788864 0
 137D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\react-error-overlay\lib133681735923414199 1
 164D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\css-select\node_modules\domutils\lib\legacy.js.map133681735933064993 0
 130D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lmdb\binding.gyp133681735937362342 0
@@ -1523,6 +1512,17 @@
 177D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\react-dom\cjs\react-dom-server-legacy.browser.production.min.js133681735531848433 0
 163D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\ordered-binary\.nyc_output\processinfo\index.json133681735928517804 0
 167D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\react-dom\cjs\react-dom-server.browser.development.js133681735532018410 0
+138D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\argparse\lib\textwrap.js133681735927318547 0
+173D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\plugins.js133681735933624646 0
+144D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\runtime-js\src\helpers133681735933974433 1
+138D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\htmlparser2\package.json133681735927738283 0
+162D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\font-unicode-range.js133681735941602990 0
+134D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\ordered-binary\tests133681735927398490 1
+148D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@swc\core-win32-x64-msvc\README.md133681735923414199 0
+139D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@swc\helpers\src\_jsx.mjs133681735942032725 0
+153D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\audio-api.js133681735933874498 0
+172D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\utils133681735936712742 1
+170D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js133681735532088357 0
 170D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest.c133681735935813302 0
 164D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Nth.cjs133681735936372950 0
 166D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\react-dom\cjs\react-dom-test-utils.production.min.js133681735532198285 0
@@ -2241,6 +2241,9 @@
 136D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lightningcss\README.md133681735929347296 0
 167D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\csso\node_modules\css-tree\cjs\syntax\scope\value.cjs133681735937812060 0
 143D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lightningcss\node\ast.js.flow133681735926076286 0
+143D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\profiler\src\index.js133681735925596581 0
+150D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lightningcss\node\composeVisitors.js133681735928357899 0
+143D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\csso\lib\restructure\utils.js133681735936892639 0
 184D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeMetadata.js133681735934893865 0
 186D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\atrule\import.js133681735935393570 0
 140D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\lightningcss\node\flags.js133681735928547786 0
@@ -2724,8 +2727,6 @@
 136D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\css-tree\cjs\convertor133681735935373574 1
 157D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@swc\helpers\src\_await_async_generator.mjs133681735941523048 0
 142D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\domutils\lib\legacy.d.ts.map133681735929457224 0
-177D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\package.json133681735931036241 0
-136D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\domutils\lib\legacy.js133681735926678938 0
 144D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\domutils\lib\querying.d.ts.map133681735929846983 0
 138D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\domutils\lib\querying.js133681735927578381 0
 150D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\dist\unpacker\region.js133681735949376542 0
@@ -4309,7 +4310,7 @@
 164D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\.bin\node-gyp-build-optional-packages-optional.ps1133681735951021859 0
 148D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\json.js133681735944171398 0
 166D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\keyboardevent-charcode.js133681735944341295 0
-124D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.c41b5a0e.css133686112812250904 0
+124D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.c41b5a0e.css133694184844382202 0
 162D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\keyboardevent-code.js133681735944341295 0
 152D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\caniuse-lite\data\features\lazyload.js133681735946260112 0
 205D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts.map133681735931545927 0
@@ -5539,7 +5540,7 @@
 175D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\_path.js133681735927408484 0
 181D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\_transforms.js133681735927728290 0
 175D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\css-tools.js133681735931925697 0
-128D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.c41b5a0e.css.map133686112812260893 0
+128D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.c41b5a0e.css.map133694184844452149 0
 172D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\parser.js133681735933294849 0
 180D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\syntaxes.json133681735931465980 0
 171D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\style.js133681735935833291 0
@@ -5983,5 +5984,6 @@
 127D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\.bin\svgo.ps1133681735951041861 0
 141D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\node_modules\.bin\update-browserslist-db133681735951061838 0
 124D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.3a01df49.css133686033994897208 0
-116D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.html133686094731948105 0
-123D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.8cfc62b9.js133686117529954276 0
+119D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\Components\Card.js133694184591187333 0
+123D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.8cfc62b9.js133694184844302259 0
+116D:\ARBAZ REMIX FOLDER\1. STUDY\BCA\Code\Learn-React.js\React by Anurag Singh ProCodrr\1.React_Parcel\dist\index.html133694184844322237 0
