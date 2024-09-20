@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "./Components/Navbar.jsx";
 import { v4 as uuidv4 } from 'uuid';
 
@@ -6,6 +6,20 @@ function App() {
 
   const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
+
+  const saveToLocalStorage = (params) => {
+    localStorage.setItem("todos", JSON.stringify(todos));
+  }
+
+  useEffect(() => {
+    let todoString = localStorage.getItem("todos");
+    //if todoString is not null
+    if(todoString) {
+      let todos = JSON.parse(localStorage.getItem("todos"))
+      setTodos(todos)
+    }
+  }, [])
+
 
   const handleEdit = (e, id) => {
     let t = todos.filter(item => item.id === id)
@@ -16,6 +30,9 @@ function App() {
       return item.id !== id
     });
     setTodos(newTodos)
+
+    //saving to local storage
+    saveToLocalStorage();
   };
 
   const handleDelete = (e, id) => {
@@ -23,12 +40,18 @@ function App() {
       return item.id !== id
     });
 
-    setTodos(newTodos)
+    setTodos(newTodos);
+    
+    //saving to local storage
+    saveToLocalStorage();
   };
 
   const handleAdd = () => {
     setTodos([...todos, { id: uuidv4(), todo, isCompleted: false }]);
     setTodo("");
+
+    //saving to local storage
+    saveToLocalStorage();
   };
 
   const handleChange = (e) => {
