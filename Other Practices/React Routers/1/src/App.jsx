@@ -1,7 +1,7 @@
-import './App.css'
 import Home from './Components/Home';
 import ProfilesPage from './Components/ProfilesPage';
 import NotFoundPage from './Components/NotFoundPage';
+import Profile from './Components/Profile';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 
@@ -16,6 +16,10 @@ function App() {
     {
       path: '/profiles',
       element: <ProfilesPage />
+    },
+    {
+      path: '/profiles/:profileId',
+      element: <Profile />
     }
   ]);
 

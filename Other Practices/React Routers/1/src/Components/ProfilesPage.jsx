@@ -6,13 +6,17 @@ const ProfilesPage = () => {
 
   return (
     <>
-        {profiles.map((profile) => {
-            return (
-            <Link key={profile} to={`/profiles/${profile}`}>
-                Profile: {profile}
-            </Link>
-            )
-        })}
+        <div className='flex flex-col gap-2 m-4 text-3xl'>
+
+            {profiles.map((profile) => {
+                return (
+                <Link key={profile} to={`/profiles/${profile}`}>
+                    Profile: {profile}
+                </Link>
+                )
+            })}
+
+        </div>
     </>
   )
 }
