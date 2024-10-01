@@ -1,0 +1,20 @@
+import React from 'react'
+import { Link } from 'react-router-dom';
+
+const ProfilesPage = () => {
+  const profiles = [1, 2, 3, 4, 5];
+
+  return (
+    <>
+        {profiles.map((profile) => {
+            return (
+            <Link key={profile} to={`/profiles/${profile}`}>
+                Profile: {profile}
+            </Link>
+            )
+        })}
+    </>
+  )
+}
+
+export default ProfilesPage
