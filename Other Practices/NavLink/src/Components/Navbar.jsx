@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul className="flex items-center p-3 justify-around gap-3 m-4 bg-gray-200 h-10">
+    <nav className="">
+      <ul className="m-0 flex items-center p-3 justify-around gap-3 bg-gray-200 h-full">
         <li>
           <NavLink to='/' className={({isActive}) => {return isActive ? "text-white bg-red-700" : ""}}>Home</NavLink>
         </li>
