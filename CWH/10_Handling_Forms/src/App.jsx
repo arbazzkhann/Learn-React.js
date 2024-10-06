@@ -22,14 +22,16 @@ function App() {
   }
 
   const onSubmit = async (data) => {
-    await delay(2)
-    console.log(data)
-    if(data.username == "aman") {
-      setError("amanError", {message: "Sorry this user is blocked."});
-    }
-    if(data.password == data.username) {
-      setError("chooseDifferentPassword", {message: "Username and password must be different."})
-    }
+    // await delay(2)
+    let r = await fetch("http://localhost:3000/");
+    let res = await r.text();
+    console.log(data, res)
+    // if(data.username == "aman") {
+    //   setError("amanError", {message: "Sorry this user is blocked."});
+    // }
+    // if(data.password == data.username) {
+    //   setError("chooseDifferentPassword", {message: "Username and password must be different."})
+    // }
   }
 
   return (
