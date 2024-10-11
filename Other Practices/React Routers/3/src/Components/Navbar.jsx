@@ -10,7 +10,7 @@ const Navbar = () => {
             <NavLink to='/contact'  className={({isActive}) => {return isActive ? "red" : ""}}> <li> Contact </li> </NavLink>
 
             <div>
-                {users.map((i)=> {return (<div><NavLink to={"/user/" + i} className={({isActive}) => {return isActive ? "red" : ""}}><li> {i} </li></NavLink></div>) })}
+                {users.map((i)=> {return (<div key={i}><NavLink to={"/user/" + i} className={({isActive}) => {return isActive ? "red" : ""}}><li> {i} </li></NavLink></div>) })}
             </div>
         </>
     )
