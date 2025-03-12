@@ -13,12 +13,18 @@ function App() {
     refElement.current.focus();
   }
 
+  //manipulating DOM Directly
+  const arbaz = () => {
+    refElement.current.value = "Arbaz";
+  }
+
   return (
     <>
       <div>
         <h1>{name}</h1>
         <input ref={refElement} className="bg-white text-black" type="text" onChange={(e) => {setName(e.target.value)}} />
         <button onClick={reset}>Reset</button>
+        <button onClick={arbaz}>Arbaz</button>
       </div>
     </>
   )
