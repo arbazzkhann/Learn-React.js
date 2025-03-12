@@ -1,23 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 function App() {
+  let [name, setName] = useState("Arbaz");
 
-  let [count, setCount] = useState(0);
-  let [data, setData] = useState(0);
+  let refElement = useRef("");
 
-  useEffect(() => {
-    console.log("Use Effect run", data);
-  }, [data])
+  console.log(refElement)
 
-
+  const reset = () => {
+    setName("");
+    refElement.current.focus();
+  }
 
   return (
     <>
       <div>
-        <h1>{count}</h1>
-        <button className="bg-red-600" onClick={() => {count++, setCount(count)}}>Count</button>
-        <h2>{data}</h2>
-        <button className="bg-green-600" onClick={() => {data++, setData(data)}}>Data</button>
+        <h1>{name}</h1>
+        <input ref={refElement} className="bg-white text-black" type="text" onChange={(e) => {setName(e.target.value)}} />
+        <button onClick={reset}>Reset</button>
       </div>
     </>
   )
