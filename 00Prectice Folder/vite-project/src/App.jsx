@@ -7,6 +7,7 @@ function App() {
 
   console.log(refElement)
 
+  //video Link:: https://youtu.be/nX9ShZo0COc?t=377
   const reset = () => {
     setName("");
     refElement.current.focus();
