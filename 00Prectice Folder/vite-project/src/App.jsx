@@ -1,30 +1,26 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, use } from "react";
 
 function App() {
-  let [name, setName] = useState("Arbaz");
 
-  let refElement = useRef("");
+  let [count, setCount] = useState(0);
 
-  console.log(refElement)
+  let val = useRef(0);
 
-  //video Link:: https://youtu.be/nX9ShZo0COc?t=377
-  const reset = () => {
-    setName("");
-    refElement.current.focus();
-  }
+  useEffect(() => {
+    console.log("Me firse render ho gaya hu.")
+  }, [count])
 
-  //manipulating DOM Directly
-  const arbaz = () => {
-    refElement.current.value = "Arbaz";
+  const handleIncrement = ()=> {
+    val.current = val.current + 1;
+    console.log("Value of val: ", val.current);
+    setCount(count+1);
   }
 
   return (
     <>
       <div>
-        <h1>{name}</h1>
-        <input ref={refElement} className="bg-white text-black" type="text" onChange={(e) => {setName(e.target.value)}} />
-        <button onClick={reset}>Reset</button>
-        <button onClick={arbaz}>Arbaz</button>
+        <button onClick={handleIncrement}>Click me!</button>
+        <h1>{count}</h1>
       </div>
     </>
   )
