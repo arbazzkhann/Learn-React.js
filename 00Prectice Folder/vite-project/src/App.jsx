@@ -1,4 +1,3 @@
-import App from './'
 import React, { useEffect, useState, useRef, use } from "react";
 
 function App() {
@@ -8,9 +7,7 @@ function App() {
   let val = useRef(0);
   let changeColorRef = useRef();
 
-  useEffect(() => {
-    console.log("Me firse render ho gaya hu.")
-  }, [count])
+  let cVal = false;
 
   const handleIncrement = ()=> {
     val.current = val.current + 1;
@@ -19,7 +16,7 @@ function App() {
   }
 
   let changeColor = () => {
-    changeColorRef.current.style.color = "red";
+      changeColorRef.current.style.color = "red";
   }
 
   return (
