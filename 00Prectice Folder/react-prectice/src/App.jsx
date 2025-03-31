@@ -7,7 +7,7 @@ export default function App () {
 
   return (
     <>
-      <div>
+      <div className="flex flex-center justify-center">
         <h1>{val}</h1>
         <input 
           type="range" 
