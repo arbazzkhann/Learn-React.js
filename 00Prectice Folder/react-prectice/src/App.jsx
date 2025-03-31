@@ -1,23 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import React from 'react'
-import Card from './Components/Card'
+import React from "react";
+import { useState } from "react";
 
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App () {
+  const [val, setVal] = useState(0);
 
   return (
     <>
       <div>
-        <Card count={count}/>
-        <button onClick={() => setCount(count+1)}>Increase count</button>
-        <button onClick={() => setCount(count-1)}>Decrease count</button>
+        <h1>{val}</h1>
+        <input 
+          type="range" 
+          value={val} 
+          onChange={(e) => setVal(e.target.value)}
+        />
       </div>
     </>
   )
 }
-
-export default App
