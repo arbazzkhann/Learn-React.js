@@ -7,11 +7,28 @@ import InfoCard from './Components/InfoCard'
 function App() {
   const [count, setCount] = useState(0)
 
+  let myArr = [{
+    name: "Arbaz Khan",
+    age: 22
+    },
+    {
+      name: "Mohd. Farhan",
+      age: 9
+    },
+    {
+      name: "MD. Subhan",
+      age: 16
+    }
+  ] 
+
   return (
     <>
       <div>
-        <InfoCard name={"Arbaz Khan"} age={22}/>
-        <InfoCard name={"MD. Farhan"} age={9  }/>
+        {
+          myArr.map((item) => {
+            return <InfoCard name={item.name} age={item.age}/>
+          })
+        }
       </div>
     </>
   )
