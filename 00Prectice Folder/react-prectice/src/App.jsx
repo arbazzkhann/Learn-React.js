@@ -14,7 +14,7 @@ function App() {
       <div>
         {
           myArr.map((item) => {
-            return <InfoCard name={item.name} age={item.age} image={item.image}/>
+            return <InfoCard key={item.name} name={item.name} age={item.age} image={item.image}/>
           })
         }
       </div>
