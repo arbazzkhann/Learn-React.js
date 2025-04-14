@@ -28,5 +28,17 @@ function Welcome(props) {
 }
 ```
 
-### Usage:
+### Props Usage:
 <Welcome name="Arbaz" />
+
+
+## 💡 Example: Using useState:
+
+```js
+import {useState} from "React";
+
+function Counter() {
+    const [count, setCount] = useState(0);
+    return <button onClick={() => setCount(count + 1)}>Click {count}</button>
+}
+```
