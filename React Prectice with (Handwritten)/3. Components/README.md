@@ -20,8 +20,8 @@ function Hello() {
 }
 ```
 
-### Usage:
+### 🧩 Usage:
+
 ```js
 <Hello />
 ```
-
