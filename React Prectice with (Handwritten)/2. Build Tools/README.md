@@ -1,17 +1,28 @@
-#Build Tools
+# 🛠️ Build Tools
 
-##1. What are build tools?
--> Build tools are programs that helps you to prepare your code production ready.
--> so your website/app runs faster and smoother when its live.
+## 📌 1. What are Build Tools?
 
-##2. What build tools do?
--> Bundle files: Combine many files into one (HTML, CSS, JavaScript).
--> Minify code: Remove spaces, comments, etc to make the file smaller.
--> transpile code: Convert newer code (like ES6 or JSX) into old JavaScript that browsers understand.
--> Optimize images: Make images smaller in size.
--> Hot reloading: Update your site instantly when you make changes (during development).
+**Build tools** are programs that help make your code **production-ready** — so your website or app runs **faster and smoother** when it's live.
 
-##3. Popular build tools:
-    i.) Vite - Fast dev server + modern build tools.
-    ii.) Webpack - Very powerful, customizable bundler.
-    iii.) Parcel - Zero-config bundler, simple to use.
+---
+
+## ⚙️ 2. What Do Build Tools Do?
+
+🔹 **Bundle Files** – Combine many files (HTML, CSS, JS) into one.  
+🔹 **Minify Code** – Remove spaces, comments, and extra characters to reduce file size.  
+🔹 **Transpile Code** – Convert modern JavaScript (like ES6 or JSX) into older versions that browsers understand.  
+🔹 **Optimize Images** – Reduce image file sizes without losing quality.  
+🔹 **Hot Reloading** – Instantly see changes in your browser while developing.
+
+---
+
+## 🚀 3. Popular Build Tools
+
+| Tool     | Description                                      |
+|----------|--------------------------------------------------|
+| ⚡ **Vite**     | Fast dev server + modern build tools.        |
+| 🧩 **Webpack**  | Powerful and highly customizable bundler.     |
+| 📦 **Parcel**   | Zero-configuration bundler, beginner-friendly.|
+
+---
+
