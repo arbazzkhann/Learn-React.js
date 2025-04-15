@@ -50,6 +50,6 @@ function FruitsList() {
 -> Its always better to use a **Unique ID** if possible, instead of index.
 
 ## Why keys are important?
--> Helps react to update only **what changed**.
--> Makes app **Faster** and **Efficient**.
--> **Avoid Bugs** or **wrong updates**.
+* Helps react to update only **what changed**.
+* Makes app **Faster** and **Efficient**.
+* **Avoid Bugs** or **wrong updates**.
