@@ -8,8 +8,8 @@ function App() {
       <div>
         {fruits.map((fruit) => {
             return (
-              <ul>
-                <li>{fruit}</li>
+              <ul key={fruit}>
+                <li >{fruit}</li>
               </ul>
             )
         })}
