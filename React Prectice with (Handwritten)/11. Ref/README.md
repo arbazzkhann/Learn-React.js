@@ -35,3 +35,10 @@ function InputFocus() {
     )
 }
 ```
+
+* When you click the button input box gets **focused**.
+
+## When to **avoid** refs?
+* Refs should **not be overused**.
+* Avoid using them to **replace state**.
+* Use only when **DOM manipulation** is needed.
