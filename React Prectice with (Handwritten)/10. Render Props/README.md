@@ -21,7 +21,7 @@ function MouseTracker(prop) {
     }
 
     return (
-        <div onMouseMove={handleMouseMove} style={{height: "100vh"}}>
+        <div onMouseMove={handleMouseMove}>
             {props.render(X, Y)} {/*Render prop used here*/}
         </div>
     );
