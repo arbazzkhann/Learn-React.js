@@ -45,6 +45,6 @@ function InputFocus() {
 
 ## useRef() VS createRef()
 
-|       useRef()          |       createRef()         |
-|-------------------------|---------------------------|
-|In functional component  | In class component        |
+|       **useRef()**          |       **createRef()**         |
+|-----------------------------|-------------------------------|
+|In functional component      | In class component            |
