@@ -42,3 +42,9 @@ function InputFocus() {
 * Refs should **not be overused**.
 * Avoid using them to **replace state**.
 * Use only when **DOM manipulation** is needed.
+
+## useRef() VS createRef()
+
+|       useRef()          |       createRef()         |
+|-------------------------|---------------------------|
+|In functional component  | In class component        |
