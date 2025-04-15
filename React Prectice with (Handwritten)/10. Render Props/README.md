@@ -47,3 +47,19 @@ function App() {
 | Render prop  | A function passed as a prop            |
 | Purpose      | To tell the component what to render   |
 | Benefit      | Share logic, but customize             |
+
+
+## Render Props VS Childern Props
+* You can also use the children as a function:
+```js
+<MouseTracker>
+    {(X, Y) => <h2>Mouse at: {X, {Y}}</h2> }
+</MouseTracker>
+```
+
+### Real world use:
+* Resuable logic like:
+    * Mouse Position
+    * Toggling models
+    * Form handling
+    * Counters
