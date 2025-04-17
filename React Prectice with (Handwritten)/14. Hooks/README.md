@@ -15,3 +15,11 @@
 * **useMemo**: To **optimize performance**, **avoid re-creating functions**.
 * **useRender**: To **Manage complex state** logic (like redux).
 
+### 1. useState
+-> Store values like counter, input etc.
+
+Syntax:
+```js
+const [count, setCounter] = useState(0);
+```
+
