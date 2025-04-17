@@ -23,3 +23,14 @@ Syntax:
 const [count, setCounter] = useState(0);
 ```
 
+### 2. useEffect
+-> Run something after rendering.
+
+Syntax:
+```js
+useEffect(() => {
+    console.log("Component mounted or Updated.");
+}, []);
+```
+* Empty array **[]** -> Run once (like componentDidMount).
+* With Dependencies **[count]** -> Runs when **count** changes.
