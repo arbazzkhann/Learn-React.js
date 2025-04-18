@@ -67,3 +67,14 @@ function Child() {
     return <div>{theme}</div>
 }
 ```
+
+### 5. useCallback
+-> Stop function from being recreated on every render.
+
+```js
+const memoizedFn = useCallback(() => {
+    console.log("Only re-created if[count] changes");
+}, [count]);
+```
+-> use when **passing function** to **child component**.
+
