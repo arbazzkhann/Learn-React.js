@@ -78,3 +78,12 @@ const memoizedFn = useCallback(() => {
 ```
 -> use when **passing function** to **child component**.
 
+### 6. useMemo
+-> Stop redoing heavy calculations.
+
+```js
+const expensiveValue = useMemo(() => {
+    return heavyFunction(input);
+}, [input]);
+```
+-> Returns, cached result unless input changes.
