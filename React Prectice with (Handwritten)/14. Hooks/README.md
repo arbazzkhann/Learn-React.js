@@ -34,3 +34,36 @@ useEffect(() => {
 ```
 * Empty array **[]** -> Run once (like componentDidMount).
 * With Dependencies **[count]** -> Runs when **count** changes.
+
+### 3. useRef
+-> Access input box or store values without re-render.
+
+Syntax:
+```js
+const inputRef = useRef();
+<input ref={inputRef} />
+
+//Store values
+const countRef = useRef(0);
+```
+
+### 4. useContext
+-> Pass data without props drilling.
+
+Syntax:
+```js
+const ThemeContext = React.createContext();
+
+function App() {
+    return (
+        <ThemeContext.Provider value="dark">
+            <Child />
+        </ThemeContext>
+    )
+}
+
+function Child() {
+    const theme = useContext(ThemeContext); //No prop needed
+    return <div>{theme}</div>
+}
+```
