@@ -1,19 +1,22 @@
 import './App.css'
 import React, { useState } from 'react'
 import Navbar from './Components/Navbar'
+import { counterContext } from './Context/context';
 
 /*
 App.jsx -> Navbar.jsx -> Button.jsx -> Component1.jsx
 */
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [counter, setCounter] = useState(0);
 
   return (
     <>
-      <div>
-        <Navbar count={count} setCount={setCount}/>
-      </div>
+      <counterContext.Provider value={{counter, setCounter}}>
+        <div>
+          <Navbar />
+        </div>
+      </counterContext.Provider>
     </>
   )
 }
