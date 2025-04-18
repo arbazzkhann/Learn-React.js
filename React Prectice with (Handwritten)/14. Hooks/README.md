@@ -87,3 +87,22 @@ const expensiveValue = useMemo(() => {
 }, [input]);
 ```
 -> Returns, cached result unless input changes.
+
+### 7. useReducer
+-> Alternative to useState for complex logic.
+
+```js
+const reducer = (state, action) => {
+    switch (action.type) {
+        case "increment" : return {count: state + 1};
+        default: return state;
+    }
+};
+
+const [state, dispatch] = useReducer(reducer, {count: 0});
+
+<button onClick={() => dispatch({type: "Increment"})}>
+    Increment
+</button>
+```
+-> Good for **counters**, **forms** or **multi-step flows**.
