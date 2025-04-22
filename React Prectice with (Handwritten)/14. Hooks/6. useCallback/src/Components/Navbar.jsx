@@ -1,10 +1,13 @@
-import React from 'react'
+import React, {memo} from 'react'
 
-const Navbar = () => {
+const Navbar = ({ adjective, getAdjective }) => {
   console.log("Navbar is rendered.");
   return (
-    <div>Navbar</div>
+    <div>
+      <h1>I am an { adjective } Navbar.</h1>
+      <button onClick={() => {getAdjective()}}>{getAdjective()}</button>
+    </div>
   )
 }
 
-export default Navbar
+export default memo(Navbar)
