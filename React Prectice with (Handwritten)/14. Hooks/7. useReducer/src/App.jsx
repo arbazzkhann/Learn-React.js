@@ -23,26 +23,42 @@ function App() {
     reducerFunction(currentState, action) {
     }
   */
+
   const initialState = 0;
+
   const reducerFunction = (currentState, action) => {
     switch (action) {
       case "increment":
         return currentState + 1;
+
       case "decrement":
         return currentState - 1;
+
+      case "multiply":
+        return currentState * 2;
+
+      case "divide":
+        return currentState / 2;
+
+      case "clear":
+        return currentState - currentState;
+
       default:
         return currentState;
     }
   };
 
-  function Counter() {
-    const [count, dispatch] = useReducer(reducerFunction, initialState);
+  const [currentCount, dispatch] = useReducer(reducerFunction, initialState);
 
+  function Counter() {
     return (
       <div>
-        <h1>{count}</h1>
+        <h1>{currentCount}</h1>
         <button onClick={() => dispatch("increment")}>Increment</button>
         <button onClick={() => dispatch("decrement")}>Decrement</button>
+        <button onClick={() => dispatch("multiply")}>Multiply by 2</button>
+        <button onClick={() => dispatch("divide")}>Divide by 2</button>
+        <button onClick={() => dispatch("clear")}>Clear</button>
       </div>
     );
   }
