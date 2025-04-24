@@ -80,6 +80,6 @@ function ButtonComponent() {
 | BrowserRouter          | Wraps your app for routing             |
 | Route                  | Defines a Route (Path + Component)     |
 | Routes                 | Holds all your routers                 |
-| Link                   | Used to Navigate (like **anchor tage**)|
+| Link                   | Used to Navigate (like **anchor tag**)|
 | useParams              | Get URL Parameters                     |
-| useNavigate            | Navigate Proframmtically               |
+| useNavigate            | Navigate Programmtically               |
