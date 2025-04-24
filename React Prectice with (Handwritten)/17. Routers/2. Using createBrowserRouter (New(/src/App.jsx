@@ -10,22 +10,21 @@ function App() {
   const router = createBrowserRouter([
     {
       path: '/',
-      Element: <Home />
+      element: <><Navbar /><Home /></>
     },
     {
       path: '/about',
-      element: <About />
+      element: <><Navbar /><About /></>
     },
     {
       path: '/contact',
-      element: <Contact />
+      element: <><Navbar /><Contact /></>
     }
   ])
 
   return (
     <>
       <div>
-        <Navbar />
         <RouterProvider router={router}/>
       </div>
     </>
