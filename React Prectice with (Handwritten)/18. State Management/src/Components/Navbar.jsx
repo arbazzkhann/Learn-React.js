@@ -5,7 +5,7 @@ const Navbar = () => {
   const {count} = useContext(myCountContext)
   return (
     <div>
-        <h1>I am Navbar count: {count}</h1>
+        <h1>Navbar count is: {count}</h1>
     </div>
   )
 }
