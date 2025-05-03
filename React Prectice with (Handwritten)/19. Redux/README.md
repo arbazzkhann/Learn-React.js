@@ -1,4 +1,4 @@
-# Redux
+# 🧠 Redux
 * Redux is a **state management library** for JavaScript apps (especially React).
 * It helps you **manage** and **share state** (data) across multiple components.
 
