@@ -5,6 +5,9 @@
 npm i redux react-redux
 ```
 
+
+# Redux components
+
 ## Actions
 * Actions are **JavaScript object** that contains some information.
 * Actions in Redux are the **only way to send data to the store**.
@@ -32,4 +35,14 @@ const Actions = {
 * This Method accepts the function (listener) as parameter which execute anytime when the state in redux store changes.
 
 
+# Redux Hooks
+React Redux offers set of hooks to - **subscribe to redux store** and **dispatch actions**.
+
+## useSelector Hook
+* useSelector is a hook react-redux library provides to get **hold of any state** that is maintained in the redux store.
+* Syntax:
+```js
+const xyz = useSelector(selector: function, equalityFn?: function)
+```
+* **Selector function** accepts the **redux state** as its **arguments** and **return a value**.
 

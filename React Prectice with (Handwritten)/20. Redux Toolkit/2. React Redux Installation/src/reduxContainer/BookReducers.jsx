@@ -4,7 +4,7 @@ const initialState = {
     numberOfBooks: 20
 }
 
-const BookReducer = (state = initialState, action) => {
+const BookReducers = (state = initialState, action) => {
     switch (action.type) {
         case buy_book: return {
             ...state, numberOfBooks : state.initialState - 1
@@ -13,4 +13,4 @@ const BookReducer = (state = initialState, action) => {
     }
 }
 
-export default BookReducer;
+export default BookReducers;
