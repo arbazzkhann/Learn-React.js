@@ -1,22 +1,19 @@
-import React from 'react'
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import InfoCard from './Components/InfoCard'
-import myArr from './Resources/JSON_DATA/InfoCard'
+
+import { useSelector, useDispatch } from 'react-redux';
+import { buyBook, sellBook } from './redux/Action'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const numberOfBooks = useSelector(state => state.numberOfBooks);
+  const dispatch = useDispatch();
 
   return (
     <>
       <div>
-        {
-          myArr.map((item) => {
-            return <InfoCard key={item.id} name={item.name} age={item.age} image={item.image}/>
-          })
-        }
+        <h1>Number of Books: {numberOfBooks}</h1>
+        <button onClick={() => dispatch(buyBook())}>Buy Book</button>
+        <button onClick={() => dispatch(sellBook())}>Sell Book</button>
       </div>
     </>
   )
