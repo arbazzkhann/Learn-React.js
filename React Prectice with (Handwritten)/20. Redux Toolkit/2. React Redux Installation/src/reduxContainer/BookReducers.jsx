@@ -1,5 +1,4 @@
-const buy_book = "buyBook";
-const sell_book = "sellBook";
+import { buy_book, sell_book } from './BookType'
 
 const initialState = {
     numberOfBooks: 20

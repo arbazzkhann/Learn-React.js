@@ -8,7 +8,7 @@ function BookContainer() {
 
   return (
     <>
-      <div>BookContainer</div>
+      <h1>BookContainer</h1>
       <h2>No of Books : {noOfBooks}</h2>
       <button onClick={() => dispatch(buyBook())}>Buy Book</button>
       <button onClick={() => dispatch(sellBook())}>Sell Book</button>
