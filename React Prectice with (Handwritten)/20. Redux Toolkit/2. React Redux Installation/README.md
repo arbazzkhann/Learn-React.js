@@ -46,3 +46,9 @@ const xyz = useSelector(selector: function, equalityFn?: function)
 ```
 * **Selector function** accepts the **redux state** as its **arguments** and **return a value**.
 
+## useDispatch Hook
+* This hook **returns a reference** to the **dispatch function** from the **redux store**.
+* Syntax:
+```js
+const dispatch = useDispatch();
+```

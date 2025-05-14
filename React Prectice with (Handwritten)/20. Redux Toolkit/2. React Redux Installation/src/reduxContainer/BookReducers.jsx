@@ -1,4 +1,5 @@
-import { buy_book } from "./BookTypes"
+const buy_book = "buyBook";
+const sell_book = "sellBook";
 
 const initialState = {
     numberOfBooks: 20
@@ -7,7 +8,10 @@ const initialState = {
 const BookReducers = (state = initialState, action) => {
     switch (action.type) {
         case buy_book: return {
-            ...state, numberOfBooks : state.initialState - 1
+            ...state, numberOfBooks : state.numberOfBooks + 1
+        }
+        case sell_book: return {
+            ...state, numberOfBooks : state.numberOfBooks - 1
         }
         default: return state
     }
