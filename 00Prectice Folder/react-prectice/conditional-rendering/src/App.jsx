@@ -11,22 +11,22 @@ function App() {
     setIsLoggedIn(!isLoggedIn);
   }
 
-  return (
-    <>
-      <div>
-        <button onClick={changeLoggedIn}>Change Logged In</button>
-        <div>
-          {/* {
-            isLoggedIn && <LoggedIn /> ||
-            !isLoggedIn && <LoggedOut/>
-          }*/}
-          {
-            isLoggedIn ? <LoggedIn /> : <LoggedOut/>
-          }
-        </div>
-      </div>
-    </>
-  )
+  if(isLoggedIn) {
+    return (
+      <>
+        <button onClick={changeLoggedIn}>Change Logged</button>
+        <LoggedIn/>
+      </>
+    )
+  }
+  else {
+      return (
+        <>
+          <button onClick={changeLoggedIn}>Change Logged</button>
+          <LoggedOut/>
+        </>
+      )
+  }
 }
 
 export default App
