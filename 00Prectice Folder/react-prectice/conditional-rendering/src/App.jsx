@@ -1,32 +1,42 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
 
-import LoggedIn from './Components/LoggedIn'
-import LoggedOut from './Components/LoggedOut'
+const App = () => {
+  const [lists, setLists] = useState([
+    { name: "Arbaz", age: 22 },
+    { name: "Farhan", age: 9 },
+    { name: "Shubham", age: 19 }
+  ]);
 
-function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  function changeLoggedIn() {
-    setIsLoggedIn(!isLoggedIn);
+  function addItem() {
+    setLists([...lists, { name: "Extra name", age: 47 }]);
   }
 
-  if(isLoggedIn) {
-    return (
-      <>
-        <button onClick={changeLoggedIn}>Change Logged</button>
-        <LoggedIn/>
-      </>
-    )
-  }
-  else {
-      return (
-        <>
-          <button onClick={changeLoggedIn}>Change Logged</button>
-          <LoggedOut/>
-        </>
-      )
-  }
-}
+  return (
+    <div>
+      {/* Fixed button at top */}
+      <div
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          background: "#fff",
+          zIndex: 1000,
+          padding: "10px",
+          boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
+        }}
+      >
+        <button onClick={addItem}>Click me!</button>
+      </div>
 
-export default App
+      {/* Content below with padding to avoid overlap */}
+      <div style={{ marginTop: "60px" }}>
+        {lists.map((item, index) => (
+          <div key={index}>{item.name}</div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default App;
