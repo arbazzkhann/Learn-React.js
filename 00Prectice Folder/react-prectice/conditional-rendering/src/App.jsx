@@ -32,7 +32,10 @@ const App = () => {
       {/* Content below with padding to avoid overlap */}
       <div style={{ marginTop: "60px" }}>
         {lists.map((item, index) => (
-          <div key={index}>{item.name}</div>
+          <div>
+            {console.log(index)}
+            <div key={index}>{item.name}</div>
+          </div>
         ))}
       </div>
     </div>
