@@ -8,7 +8,7 @@ const App = () => {
   ]);
 
   function addItem() {
-    setLists([...lists, { name: "Extra name", age: 47 }]);
+    setLists([...lists, { name: "Farhan Pagal", age: 47 }]);
   }
 
   return (
