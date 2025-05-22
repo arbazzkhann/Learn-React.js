@@ -7,11 +7,16 @@ function App() {
     register,
     handleSubmit,
     watch,
-    formState: { errors },
+    formState: { errors, isSubmitting },
   } = useForm();
 
-  function onSubmit(data) {
-    console.log("form submitting", data);
+  // function onSubmit(data) {
+  //   console.log("form submitting", data);
+  // }
+
+  async function onSubmit(data) {
+    await new Promise((res) => setTimeout(res, 3000));
+    console.log(data);
   }
 
   return (
@@ -32,7 +37,7 @@ function App() {
           <label>Last Name: </label>
           <input {...register("lastName")} />
 
-          <input type="submit" value="Submit" />
+          <input type="submit" value={isSubmitting ? "Submitting" : "Submit"} disabled={isSubmitting}/>
         </form>
       </div>
     </>
