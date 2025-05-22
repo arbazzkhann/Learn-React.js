@@ -1,4 +1,4 @@
-import { INCREMENT, DECREMENT } from './ActionType';
+import { INCREMENT, DECREMENT } from './ActionsTypes';
 
 const IncrementAction = () => {
     return {
@@ -11,4 +11,4 @@ const DecrementAction = () => {
     }
 }
 
-export  { IncrementAction, DecrementAction }
+export { IncrementAction, DecrementAction }
