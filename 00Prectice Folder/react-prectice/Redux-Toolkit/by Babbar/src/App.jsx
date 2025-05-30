@@ -1,13 +1,10 @@
-import './App.css'
+import First from './Components/First'
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <div>
-        
-      </div>
-    </>
+    <div>
+      <First />
+    </div>
   )
 }
 
