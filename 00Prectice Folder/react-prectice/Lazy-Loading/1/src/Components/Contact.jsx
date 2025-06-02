@@ -8,7 +8,7 @@ const Contact = () => {
         <Navbar />
         <h1>I am Contact.</h1>
         <div>
-          <img className='h-100' src='../../public/Images/skull.jpg' alt="image not found" />
+          <img className='h-100' src='/Images/skull.jpg' alt="image not found" />
         </div>
     </div>
   )

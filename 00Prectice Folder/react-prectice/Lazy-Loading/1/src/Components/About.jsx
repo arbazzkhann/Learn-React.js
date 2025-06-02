@@ -7,7 +7,7 @@ const About = () => {
     <div>
         <Navbar />
         <h1>I am About.</h1>
-        <img className='h-100' src='../../public/Images/venom.jpg' alt="image not found" />
+        <img className='h-100' src='/Images/venom.jpg' alt="image not found" />
     </div>
   )
 }
