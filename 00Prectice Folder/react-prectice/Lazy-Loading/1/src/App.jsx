@@ -12,18 +12,27 @@ const Home = lazy(() => import('./Components/Home'));
 const About = lazy(() => import('./Components/About'));
 const Contact = lazy(() => import('./Components/Contact'));
 // const Extra = lazy(() => import('./Components/Extra'));
-const Extra = lazy(() =>
-  new Promise((resolve) => {
+// const Extra = lazy(() =>
+//   new Promise((resolve) => {
+//     setTimeout(() => {
+//       import('./Components/Extra').then((module) => {
+//         console.log('Component loaded:', module); // optional logging
+//         resolve(module);
+//       });
+//     }, 3000); // 3 seconds delay
+//   })
+// );
+
+
+
+const wait = (time) => {
+  return new Promise(res => {
     setTimeout(() => {
-      import('./Components/Extra').then((module) => {
-        console.log('Component loaded:', module); // optional logging
-        resolve(module);
-      });
-    }, 3000); // 3 seconds delay
+      res();
+    }, time)
   })
-);
-
-
+} 
+const Extra = wait(1000).then(() => import('./Components/Extra'))
 
 
 function App() {
