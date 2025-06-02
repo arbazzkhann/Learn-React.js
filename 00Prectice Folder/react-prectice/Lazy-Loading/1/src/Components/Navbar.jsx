@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
         <nav class="bg-white border-gray-200 dark:bg-gray-900">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <Link to="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <Link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Arbaz Khan</span>
                 </Link>
@@ -57,6 +57,20 @@ const Navbar = () => {
                             }
                         >
                             Contact
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/extra"
+                            className={({ isActive }) => 
+                                `block py-2 px-3 rounded-sm md:p-0 ${
+                                    isActive 
+                                        ? "text-blue-700 bg-blue-100 md:bg-transparent md:text-blue-700 dark:text-blue-500"
+                                        : "text-white bg-blue-700 md: bg-transparent md:text-white dark:text-white"
+                                }`
+                            }
+                        >
+                            Extra
                         </NavLink>
                     </li>
                 </ul>
