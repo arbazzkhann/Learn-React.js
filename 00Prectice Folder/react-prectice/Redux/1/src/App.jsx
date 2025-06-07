@@ -1,7 +1,7 @@
 import './App.css'
 
 import { useSelector, useDispatch } from 'react-redux'
-import { increment, decrement } from './redux/Actions'
+import { incrementActions, decrementActions } from './redux/Actions'
 
 function App() {
   const count = useSelector(state => state.count)
@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <h1>Count: {count}</h1>
-      <button onClick={() => dispatch(increment())}>Increment</button>
-      <button onClick={() => dispatch(decrement())}>Decrement</button>
+      <button onClick={() => dispatch(incrementActions())}>Increment</button>
+      <button onClick={() => dispatch(decrementActions())}>Decrement</button>
     </>
   )
 }
