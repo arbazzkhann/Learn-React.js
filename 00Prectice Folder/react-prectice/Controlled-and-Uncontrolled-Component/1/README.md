@@ -2,25 +2,38 @@
 In controlled components, form data is handled by React state. You use useState to store and update input values.
 
 ```js
-import React, { useState } from 'react';
+import { useRef, useState } from "react"
+import React from "react"
 
-function ControlledInput() {
-  const [name, setName] = useState('');
+export default function ControlledCompo() {
+    const [name, setName] = useState("Arbaz Khan");
+    const [age, setAge] = useState(22);
 
-  const handleChange = (e) => {
-    setName(e.target.value);
-  };
+    const nameRef = useRef();
+    const ageRef = useRef();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert(`Submitted Name: ${name}`);
-  };
+    function submitForm (e) {
+        e.preventDefault();
+        console.log(`You are: ${nameRef.current.value}`);
+        console.log(`and your age is ${ageRef.current.value}`);
+    }
 
-  return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" value={name} onChange={handleChange} />
-      <button type="submit">Submit</button>
-    </form>
-  );
+    const changeName = (e) => {
+        setName(e.target.value)
+        console.log(e.target.value)
+    }
+    
+    return (
+        <>
+            <div>
+                {/* <form> */}
+                <form onSubmit={submitForm}>
+                    <input ref={nameRef} type="text" value={name} onChange={changeName}/>
+                    <input ref={ageRef} type="number" value={age} onChange={(e) => setAge(e.target.value)}/>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </>
+    )
 }
 ```
