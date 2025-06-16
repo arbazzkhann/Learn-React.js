@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>{id}</h1>
-        <h1>{id2}</h1>
+        <h1 id={id}>{id}</h1>
+        <h1 id={id2}>{id2}</h1>
       </div>
     </>
   )
